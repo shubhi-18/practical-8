@@ -1,0 +1,263 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://img.lovepik.com/photo/50101/9785.jpg_wh300.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* text
+{
+    font-family: Arial, Helvetica, sans-serif;
+}     */
+/* html
+{
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+} */
+
+.container
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body
+{
+    border: 10px solid rgb(231, 228, 228); 
+}
+
+h1
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+}
+h2
+{
+    
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.menu 
+{
+    background-color: rgb(117, 115, 115);
+    text-align: center;
+    height: 10vh;
+    line-height: 50%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.banner
+{
+    background-image: url(../assets/Assignment-8-Bg.JPG);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: left;
+    background-color: skyblue;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.sec1
+{
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    /* background-color: orchid; */
+}
+
+.sec2
+{
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+.sec3
+{
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.sec4
+{
+    height: 90vh;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.footer
+{
+    background-color: plum;
+    height: 10vh;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.menu ul
+{
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li
+{
+    width : 150px;
+    margin: 15px;
+    padding: 15px;
+    display: block;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.menubutton
+{
+   padding: 20px 15px;
+   background-color: rgb(117, 115, 115);
+}
+.menubutton:hover
+/* .menu ul li :hover */
+{
+   background-color: white;
+   size: 100%;
+   cursor: pointer;
+   color: black;
+}
+
+.sub-sec1
+{
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.left
+{
+    background-color:  rgb(117, 115, 115);
+    float: left;
+    width: 50%;
+    height: 80%;
+    color: white;
+}
+.right
+{
+    float: right;
+    width: 48%;
+    height: 85%;
+}
+.A1, .A2, .A3
+{
+    height: 30%;
+    margin-bottom: 10px;
+    color: white;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.A1
+{
+background-image: url(../assets/Assignment-8-Proj1.JPG);
+}
+.A2
+{
+background-image: url(../assets/Assignment-8-Proj2.JPG);
+}
+.A3
+{
+background-image: url(../assets/Assignment-8-Proj3.JPG);
+}
+
+
+.mem img
+{
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 100%;
+    padding-right: 40px;
+}
+
+
+.sub-sec3
+{
+    display: inline-flex;
+    width: 100%;
+}
+
+.box
+{
+   background-color: rgba(143, 138, 138, 0.363);
+   width: 335px;
+   height: 80vh;
+   text-align: justify;
+   margin: 20px; 
+}
+.box img
+{
+   width: 100%;
+   height: 26vh;
+}
+.heading
+{
+   height: 10vh;
+   margin-bottom: 10px;
+}
+.heading h2
+{
+    color: black;
+    text-align: center;
+}
+.paragraph
+{
+   height: 30vh;
+   overflow: hidden;
+   margin-bottom: 10px;
+   color: white;
+   text-align: justify;
+   padding : 15px;
+   margin-bottom: 30px;
+   font-size: 22px;
+}
+
+.mybutton
+{
+   display: block;
+   text-decoration: none;
+   margin-top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-color: red;
+   padding: 18px 10px;
+   border-radius: 10px;
+   height: 8vh;
+   margin-bottom: 0px;
+}
+.mybutton:hover
+{
+   background-color: blue;
+}
